@@ -1,0 +1,40 @@
+<div class="prototype-wrapper">
+  <div class="grid-layout">
+    <div class="tile" id="statement">
+      <h2>Current Pay Statement</h2>
+    </div>
+    <div class="tile" id="history">
+      <h2>Pay History</h2>
+      <div class="chart-area" [chart]="chartPayoutInfo"></div>
+    </div>
+    <div class="tile" id="comparison">
+      <h2>Earnings Comparison</h2>
+      <div class="chart-area" [chart]="chartEarnings"></div>
+    </div>
+    <div class="tile" id="advances">
+      <h2>Payout Advances</h2>
+      <div class="chart-area" [chart]="chart"></div>
+    </div>
+    <div class="tile" id="health">
+      <h2>Health & Wellness</h2>
+    </div>
+    <div class="tile" id="tax-center">
+      <h2>Tax Center</h2>
+    </div>
+    <div class="tile" id="rewards">
+      <h2>Rewards</h2>
+    </div>
+    <div class="tile" id="market-place">
+      <h2>Market Place</h2>
+    </div>
+    <div class="tile" id="planning">
+      <h2>Future Planning</h2>
+    </div>
+    <div class="tile" id="reimbursement">
+      <h2>Reimbursements</h2>
+    </div>
+  </div>
+</div>
+
+<button (click)="add()">Add Point!</button>
+
